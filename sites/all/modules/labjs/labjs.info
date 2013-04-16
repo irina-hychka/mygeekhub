@@ -1,0 +1,14 @@
+
+name = LABjs
+description = The performance script loader
+core = 7.x
+files[] = labjs.module
+package = Javascript Utilities
+tags[] = javascript
+
+; Information added by drupal.org packaging script on 2012-02-11
+version = "7.x-1.3"
+core = "7.x"
+project = "labjs"
+datestamp = "1328942447"
+

@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ *  LABjs install file
+ */
+
+
+/**
+ * Implements of hook_uninstall().
+ */
+function labjs_uninstall() {
+  variable_del('labjs_pages_choice');
+  variable_del('labjs_pages_list');
+}
+
