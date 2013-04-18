@@ -99,6 +99,18 @@ a:hover {
     margin: 0 auto;
     padding: 0 0 80px;
 }
+#triptych-wrapper {
+    overflow: hidden;
+    width: 901px;
+    margin: 0 auto;
+    padding: 0 0 40px;
+}
+#footer-wrapper {
+    overflow: hidden;
+    width: 901px;
+    margin: 0 auto;
+    padding: 0 0 80px;
+}
 /*---------------------------------------------------*/
 /*---------------------header------------------------*/
 /*---------------------------------------------------*/
@@ -264,3 +276,417 @@ a:hover {
     margin: 0 0 27px;
     padding: 0 0 8px;
 }
+#content a:hover {
+    text-decoration: underline;
+}
+/*---------------------Our team---------------------*/
+.ourteam {
+    overflow: hidden;
+    padding: 0 40px;
+}
+.ourteam li {
+    height: 170px;
+    overflow: hidden;
+
+    padding: 0 0 15px;
+}
+.ourteam li.views-row-even .personal {
+     float: right;
+}
+.personal {
+    overflow: hidden;
+    float: left;
+}
+.personal h3 {
+    color: #EA2778;
+    font-family: "Trebuchet MS";
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 29px;
+    padding: 37px 0 7px;
+    width: 185px;
+    text-align: right;
+}
+.ourteam li.views-row-even .personal h3 {
+    text-align: left;
+}
+.personal h3 span {
+    color: #F3753E;
+    display: block;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 16px;
+    padding-top: 5px;
+    text-align: right;
+}
+.ourteam li.views-row-even .personal h3 span {
+    text-align: left;
+}
+.ourteam li.views-row-even .views-field-field-image {
+    float: right;
+}
+.ourteam li .views-field-field-image {
+    overflow: hidden;
+    float: left;
+    width: 170px;
+    height: 170px;
+    margin: 0 21px;
+}
+.ourteam li .views-field-field-image img {
+    overflow: hidden;
+    display: block;
+    width: 170px;
+    height: 170px;
+}
+.ourteam li .views-field-body  {
+    overflow: hidden;
+}
+.ourteam li.views-row-even p {
+    text-align: right;
+    width: 480px;
+}
+.ourteam li p {
+    width: 424px;
+    font-size: 14px;
+    line-height: 20px;
+    overflow: hidden;
+    padding: 40px 0 0;
+    text-align: left;
+    color: #4C7689;
+    font-family: Arial,sans-serif;
+}
+/*---------------------About Geekhub--------------------*/
+#node-1 {
+    overflow: hidden;
+    padding: 0 35px;
+}
+#node-1 img {
+    overflow: hidden;
+    display: block;
+    float: left;
+    width: 274px;
+    height: 189px;
+    margin: 0 28px 0 0;
+}
+.about {
+    overflow: hidden;
+}
+.about p {
+    color: #4C7689;
+    font-weight: normal;
+    margin: 0 0 10px;
+    font: 14px/20px Arial;
+}
+/*---------------------Homepage--------------------*/
+.description {
+    overflow: hidden;
+    padding: 5px 64px 27px;
+    font-size: 14px;
+    line-height: 24px;
+}
+#block-system-main {
+    overflow: hidden;
+}
+#block-system-main h2 {
+    margin: 0 0 27px;
+    padding: 0 0 8px;
+    border-bottom: 1px solid #A7C3CF;
+    font-family: "Trebuchet MS";
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 10px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.types ul {
+    overflow: hidden;
+    margin: 0;
+}
+.types ul li {
+    float: left;
+    width: 406px;
+    margin: 0 0 20px;
+}
+.types ul li.views-row-odd {
+    margin-right: 40px;
+}
+.types ul li img {
+    display: block;
+    float: left;
+    margin: 0 22px 0 0;
+}
+.types ul li .views-field-title span a {
+    color: #EA2778;
+    font-family: "Trebuchet MS";
+    font-size: 27px;
+    font-weight: normal;
+    line-height: 27px;
+}
+.types ul li .views-field-body .field-content{
+    overflow: hidden;
+    margin: 14px 0 0;
+    line-height: 18px;
+}
+/*---------------------Tryptich--------------------*/
+.region-triptych-first {
+    overflow: hidden;
+    float: left;
+}
+.region-triptych-middle {
+    overflow: hidden;
+    float: left;
+    margin: 0 35px;
+    width: 276px;
+}
+.region-triptych-middle h4 {
+    width: 276px;
+    height: 214px;
+    background: url("../images/banner.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+}
+.region-triptych-middle h4 a {
+    display: block;
+    height: 214px;
+    text-indent: -999em;
+    width: 276px;
+}
+.region-triptych-last {
+    overflow: hidden;
+}
+.sponsors {
+    overflow: hidden;
+    width: 276px;
+}
+.sponsors h4 {
+    margin: 0 0 22px;
+    padding: 0 0 8px;
+    border-bottom: 1px solid #A7C3CF;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 6px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.sponsors ul {
+    overflow: hidden;
+}
+.sponsors ul li {
+    float: left;
+    padding: 0 12px 14px;
+}
+.sponsors ul li a {
+    display: block;
+    overflow: hidden;
+    text-indent: -200px;
+    background: url("../images/sponsors.png") no-repeat scroll 0 0 transparent;
+}
+.sponsors ul li.de a {
+    height: 54px;
+    width: 70px;
+    background-position: 0 -76px;
+}
+.sponsors ul li.de a:hover {
+    background-position: 0 0;
+}
+.sponsors ul li.moc a {
+    height: 46px;
+    width: 72px;
+    background-position: -101px -76px;
+}
+.sponsors ul li.moc a:hover {
+    background-position: -101px 0;
+}
+.sponsors ul li.sergium a {
+    height: 48px;
+    width: 45px;
+    background-position: -209px -76px;
+}
+.sponsors ul li.sergium a:hover {
+    background-position: -209px 0;
+}
+.sponsors ul li.stuff {
+    margin: 0 0 0 60px;
+    clear: both;
+}
+.sponsors ul li.stuff a {
+    height: 49px;
+    width: 59px;
+    background-position: -283px -76px;
+}
+.sponsors ul li.stuff a:hover {
+    background-position: -283px 0;
+}
+.sponsors ul li.youthog a {
+    height: 44px;
+    width: 61px;
+    background-position: -385px -76px;
+}
+.sponsors ul li.youthog a:hover {
+    background-position: -385px 0;
+}
+/*---------------------Contacts----------------------*/
+#node-33 {
+    overflow: hidden;
+    padding: 0 35px;
+}
+#node-33 .field-name-field-welcome {
+    overflow: hidden;
+    width: 416px;
+}
+#node-33 .field-item {
+    color: #EB3580;
+    font-size: 27px;
+    font-weight: normal;
+    padding: 0 0 12px;
+    text-align: center;
+}
+.field-name-field-map {
+    overflow: hidden;
+    float: left;
+    width: 382px;
+    height: 287px;
+    padding: 17px 17px 17px 16px;
+    background: url("../images/map.png") no-repeat scroll 0 0 transparent;
+}
+.field-name-field-map iframe {
+    width: 382px;
+}
+#node-33 .field-name-field-intro {
+    overflow: hidden;
+    width: 416px;
+}
+#node-33 .field-name-field-image {
+    overflow: hidden;
+    width: 416px;
+}
+#node-33 .field-name-field-respond {
+    overflow: hidden;
+    width: 416px;
+}
+#node-33 .field-name-field-adress {
+    overflow: hidden;
+    width: 416px;
+}
+#node-33 .field-name-field-follow {
+    overflow: hidden;
+    width: 416px;
+}
+#node-33 .contact_links {
+    overflow: hidden;
+    padding: 0 0 0 116px;
+}
+#node-33 .contact_links li {
+    float: left;
+    padding: 0 17px 0 0;
+}
+#node-33 .contact_links li a {
+    background: url("../images/contact_links.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 49px;
+    overflow: hidden;
+    text-indent: -200px;
+    width: 49px;
+}
+#node-33 .contact_links li.fb a {
+    background-position: 0 0;
+}
+#node-33 .contact_links li.fb a:hover {
+    background-position: 0 -57px;
+}
+#node-33 .contact_links li.vk a {
+    background-position: -65px 0;
+}
+#node-33 .contact_links li.vk a:hover {
+    background-position: -65px -57px;
+}
+#node-33 .contact_links li.tw a {
+    background-position: -132px 0;
+}
+#node-33 .contact_links li.tw a:hover {
+    background-position: -132px -57px;
+}
+/*---------------------Certificates------------------------*/
+.certificated {
+    overflow: hidden;
+}
+.certificated h2 {
+    margin: 0 0 10px;
+    color: #EA2778;
+    font-family: "Trebuchet MS";
+    font-size: 29px;
+    font-weight: normal;
+    line-height: 29px;
+}
+.certificated table {
+    overflow: hidden;
+    margin: 0 0 15px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.certificated table tr {
+    background-color: #ffffff;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 20px;
+    border: none;
+}
+.certificated table tr td.views-align-left {
+    width: 300px;
+}
+.certificated table tr td.views-align-right {
+    width: 100px;
+}
+.certificated table th {
+    border: none;
+    padding: 0;
+}
+
+.certificated table tbody {
+    border: none;
+}
+/*---------------------------------------------------*/
+/*---------------------FOOTER------------------------*/
+/*---------------------------------------------------*/
+#footer {
+    overflow: hidden;
+    padding: 17px 0 0;
+    border-top: 1px solid #A7C3CF;
+}
+#footer #block-system-main-menu {
+    overflow: hidden;
+    width: 372px;
+}
+#footer .menu {
+    overflow: hidden;
+}
+#footer .menu li {
+    float: left;
+    width: auto;
+    padding: 0 21px 0 0;
+    list-style: none;
+}
+#footer .menu li a {
+    color: #396375;
+    display: block;
+    font-family: "Trebuchet MS";
+    font-size: 10px;
+    font-weight: bold;
+    height: 12px;
+    text-transform: uppercase;
+}
+#footer #block-block-2 {
+    overflow: hidden;
+    float: right;
+}
+#footer p {
+    width: auto;
+    color: #A7C3CF;
+    font-family: Arial;
+    font-size: 10px;
+    text-align: right;
+}
+
