@@ -117,24 +117,6 @@
 
 
     <?php print render($page['header']); ?>
-<!--      --><?php //if ($main_menu): ?>
-<!--      <div id="main-menu" class="navigation">-->
-<!--          --><?php //print theme('links__system_main_menu', array(
-//          'links' => $main_menu,
-//          'attributes' => array(
-//              'id' => 'main-menu-links',
-//              'class' => array('links', 'clearfix'),
-//          ),
-//          'heading' => array(
-//              'text' => t('Main menu'),
-//              'level' => 'h2',
-//              'class' => array('element-invisible'),
-//          ),
-//      )); ?>
-<!--      </div> <!-- /#main-menu -->
-<!--      --><?php //endif; ?>
-
-
   </div></div> <!-- /.section, /#header -->
 
   <?php if ($messages): ?>
@@ -164,14 +146,10 @@
 
         <?php if (!$is_front) { ?>
         <?php if ($title) { ?>
-            <h1><?php print $title ?></h1>
+            <h1 class="title" id="page-title"><?php print $title ?></h1>
             <?php }
     } ?>
-<!--      --><?php //if ($title): ?>
-<!--        <h1 class="title" id="page-title">-->
-<!--          --><?php //print $title; ?>
-<!--        </h1>-->
-<!--      --><?php //endif; ?>
+
       <?php print render($title_suffix); ?>
       <?php if ($tabs): ?>
         <div class="tabs">
